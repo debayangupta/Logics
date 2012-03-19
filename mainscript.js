@@ -55,7 +55,7 @@ function setSize() {
 	_gel('Yale').style.fontSize = Math.floor(thing.yale_size*thing.zoom) + 'px';
 	if(_gel('the')) _gel('the').style.fontSize = parseInt(_gel('Yale').style.fontSize)/3 + 'px';
 	thing.css('#logics td').fontSize = Math.floor(thing.logics_size*thing.zoom) + 'px';
-	
+	alert(1);
 }
 
 window.onload = function() {
